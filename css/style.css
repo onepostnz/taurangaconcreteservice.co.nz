@@ -552,3 +552,10 @@ main .figure:has(img[src*="logo"]){text-align:center}
 
 .hero{background:radial-gradient(1200px 500px at 15% -10%,rgba(255,107,44,.16),transparent 60%),linear-gradient(100deg,rgba(15,27,43,.80) 0%,rgba(15,27,43,.60) 40%,rgba(15,27,43,.22) 100%),url('/images/Tauranga-Concrete-Service-image-0.jpg');background-size:cover;background-position:center 65%}
 .hero h1,.hero .lead,.hero .hero-stats{text-shadow:0 2px 14px rgba(0,0,0,.45)}
+
+.form-defer{position:relative;min-height:720px;background:#e8e8e8;border-radius:14px}
+.form-defer::before{content:"Loading your quote form…";position:absolute;inset:0;display:grid;place-items:center;color:#555;font-weight:600}
+.form-defer.loaded::before{display:none}
+.form-defer iframe{position:relative;z-index:1}
+@media(max-width:900px){.form-defer{min-height:954px}}
+.form-nojs{padding:30px;text-align:center}
