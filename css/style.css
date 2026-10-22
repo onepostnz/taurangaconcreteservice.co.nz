@@ -549,3 +549,6 @@ nav.links{margin-left:auto}
 main .figure img[src*="logo"]{width:170px;max-width:100%;height:auto;margin:10px auto;display:block}
 main .figure:has(img[src*="logo"]){text-align:center}
 .footer-brand .brand img{height:46px;width:auto;max-width:100%}
+
+.hero{background:radial-gradient(1200px 500px at 15% -10%,rgba(255,107,44,.16),transparent 60%),linear-gradient(100deg,rgba(15,27,43,.80) 0%,rgba(15,27,43,.60) 40%,rgba(15,27,43,.22) 100%),url('/images/Tauranga-Concrete-Service-image-0.jpg');background-size:cover;background-position:center 65%}
+.hero h1,.hero .lead,.hero .hero-stats{text-shadow:0 2px 14px rgba(0,0,0,.45)}
