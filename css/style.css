@@ -522,3 +522,13 @@ nav.links{gap:20px}nav.links a{white-space:nowrap;font-size:.86rem}.phone-pill,.
 
 @media(min-width:901px){.hero-inner>div:first-child{align-self:start;position:sticky;top:110px}}
 .hero-form-head{padding:0 4px 18px}
+
+.partner{display:flex;align-items:center;gap:8px;padding-left:18px;margin-left:6px;border-left:1px solid rgba(255,255,255,.22);text-decoration:none}
+.partner span{font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:#9fb0c3}
+.partner img{height:22px;width:auto}
+@media(max-width:1180px){.partner span{display:none}.partner{padding-left:12px}}
+@media(max-width:560px){.partner{display:none}}
+.ft-partner{display:flex;align-items:center;gap:10px;margin-top:16px;flex-wrap:wrap}
+.ft-partner span{font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:#9fb0c3}
+.ft-partner img{height:26px;width:auto}
+.hero-form-head .form-sub{margin-top:8px}
