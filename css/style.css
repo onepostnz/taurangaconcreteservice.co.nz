@@ -532,7 +532,7 @@ nav.links{gap:20px}nav.links a{white-space:nowrap;font-size:.86rem}.phone-pill,.
 .ft-partner span{font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:#9fb0c3}
 .ft-partner img{height:26px;width:auto}
 
-.hero-form-head .response-time{font-size:clamp(1.8rem,3vw,2.5rem);font-weight:800;color:#fff;line-height:1.25;margin:0}
-.hero-form-head{padding-bottom:26px}
+.hero-form-head .response-time{font-size:2rem;font-weight:800;color:#fff;line-height:1.3;margin:0}
+.hero-form-head{padding:0 4px 32px}
 .nav .brand{margin-right:0}
 .nav .partner{margin-right:auto;margin-left:18px;padding-left:16px}
