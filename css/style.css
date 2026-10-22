@@ -545,3 +545,7 @@ nav.links{margin-left:auto}
 .hero{padding:0!important}
 .hero-inner{padding-top:72px;padding-bottom:56px}
 @media(max-width:900px){.hero-inner{padding-top:48px;padding-bottom:40px}}
+
+main .figure img[src*="logo"]{width:170px;max-width:100%;height:auto;margin:10px auto;display:block}
+main .figure:has(img[src*="logo"]){text-align:center}
+.footer-brand .brand img{height:46px;width:auto;max-width:100%}
