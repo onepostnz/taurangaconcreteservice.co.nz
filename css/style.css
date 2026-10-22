@@ -559,3 +559,4 @@ main .figure:has(img[src*="logo"]){text-align:center}
 .form-defer iframe{position:relative;z-index:1}
 @media(max-width:900px){.form-defer{min-height:954px}}
 .form-nojs{padding:30px;text-align:center}
+picture{display:contents}
